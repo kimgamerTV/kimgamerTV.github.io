@@ -6,12 +6,26 @@ body{
     color: aliceblue;
     text-align: center;
 }
-.Usernamet{
-    color: aliceblue;
-    text-align: center;
-    font-size: 24px;
+.Flex1{
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+    flex-direction: column;
+    transform: translateY(300%);
 }
 .inputb{
+    justify-content: center;
+    display: flex;
+}
+.inputbpass{
+    justify-content: center;
+    display: flex;
+}
+.inputdiv{
+    border-radius: 10px;
+    text-align: center;
+}
+.button1{
     justify-content: center;
     display: flex;
 }
