@@ -1,0 +1,17 @@
+body{
+    background-color:chocolate;
+}
+.logint{
+    font-size: 24px;
+    color: aliceblue;
+    text-align: center;
+}
+.Usernamet{
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+}
+.inputb{
+    justify-content: center;
+    display: flex;
+}
