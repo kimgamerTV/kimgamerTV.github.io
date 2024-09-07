@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnimeSpace</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+    </style>
+  </head>
+  <body>
+    <div id="particles-js" class="particle"></div>
+    <script src="../particles.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <div class="AnimeSpace slide">Anime Space</div>
+    <button class="button" onclick="togglePopUp()">Add</button>
+    <div id="AddPopup">
+      <div class="background">
+        <h1 class="Maven-font">Adding new Animelist</h1>
+        <div class="flexbox1">
+          <div class="item">
+            <input type="text" placeholder="Anime Name" />
+          </div>
+          <div class="item">
+            <div>
+              <h1 class="Maven-font">Episode</h1>
+              <select name="Episode"></select>
+            </div>
+          </div>
+          <div class="item">
+            <div>
+              <h1 class="Maven-font">Watched<br>Episode</h1>
+              <select name="Watch_Episode"></select>
+            </div>
+          </div>
+        </div>
+        <div class="Submit-Box">
+          <button class="Submit" onclick="togglePopUp()">Submit</button>
+        </div>
+      </div>
+    </div>
+    <script src="optionbuildscript.js"></script>
+  </body>
+</html>
